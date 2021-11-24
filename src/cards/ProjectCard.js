@@ -40,11 +40,11 @@ export default function ProjectCard({ deviceType }) {
       btns: [
         {
           name: "Visit",
-          url: "https://skyhawkrecovery.github.io/",
+          url: "https://t.me/acharyacollegebot/",
         },
         {
           name: "Source Code",
-          url: "https://github.com/SHRP",
+          url: "https://github.com/spraveenofficial/acharyaClassAttender-tgBot",
         },
       ],
     },

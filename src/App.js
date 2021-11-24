@@ -15,6 +15,8 @@ import cover_skill6 from "./assets/cover_skill6.svg";
 import cover_skill7 from "./assets/cover_skill7.svg";
 import cover_skill8 from "./assets/cover_skill8.svg";
 import cprogramLogo from "./assets/cprogram.png";
+import gitLogo from "./assets/git.png";
+import awsLogo from "./assets/aws.png"
 import cpluslogo from "./assets/c++.png";
 import java from "./assets/skills/java.svg";
 import javascript from "./assets/skills/js.svg";
@@ -144,7 +146,7 @@ const skills = [
   },
   {
     name: "C Language",
-    type: "Oriented Programming",
+    type: "Language",
     cover: cover_skill4,
     icon: cprogramLogo,
     svg_icon: true,
@@ -153,13 +155,30 @@ const skills = [
   },
   {
     name: "C++",
-    type: "OOPS",
+    type: "Language",
     cover: cover_skill2,
     icon: cpluslogo,
     svg_icon: true,
     icon_position: "top left",
     info_position: "bottom right",
   },
+  {
+    name: "Git",
+    type: "Information Tracker",
+    cover: cover_skill3,
+    icon: gitLogo,
+    svg_icon: true,
+    icon_position: "bottom left",
+    info_position: "top right",
+  },
+  {
+    name: "AWS",
+    type: "Cloud platform",
+    cover: cover_skill6,
+    icon: "ri-amazon-fill",
+    icon_position: "top left",
+    info_position: "bottom right",
+  }
 ];
 
 function App() {
